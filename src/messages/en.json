@@ -1,0 +1,44 @@
+{
+  "Index": {
+    "title": "Green Card Eligibility Screener",
+    "description": "Answer a few questions to determine which U.S. green card category you may qualify for. Available in English and Chinese."
+  },
+  "common": {
+    "yes": "Yes",
+    "no": "No",
+    "startOver": "Start Over",
+    "requirements": "Requirements",
+    "requiredDocuments": "Required Documents",
+    "question": "Question",
+    "of": "of",
+    "results": "Your Results"
+  },
+  "screener": {
+    "title": "Green Card Eligibility Screener",
+    "description": "Answer a few questions to determine which U.S. green card category you may qualify for. Available in English and Chinese.",
+    "questions": {
+      "current_visa": "Are you currently employed in the U.S. with a visa?",
+      "education_level": "What is your highest level of education?",
+      "us_citizen_relative": "Do you have any immediate relatives who are U.S. citizens?",
+      "job_offer": "Do you have a job offer from a U.S. employer?",
+      "extraordinary_ability": "Have you received national or international recognition for your achievements?",
+      "work_experience": "How many years of work experience do you have in your field?"
+    },
+    "education_options": {
+      "bachelors": "Bachelor's Degree",
+      "masters": "Master's Degree",
+      "phd": "Ph.D. or higher",
+      "other": "Other"
+    },
+    "experience_options": {
+      "less_than_2": "Less than 2 years",
+      "2_to_5": "2-5 years",
+      "more_than_5": "More than 5 years"
+    }
+  },
+  "results": {
+    "confidence": "Based on your responses, you may be eligible for {category} with {confidence}% confidence.",
+    "description": "This category is {description}.",
+    "timeline": "The estimated processing time is {timeline}."
+  }
+} 

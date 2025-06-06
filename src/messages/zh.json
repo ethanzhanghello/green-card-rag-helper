@@ -1,0 +1,44 @@
+{
+  "Index": {
+    "title": "绿卡资格筛查工具",
+    "description": "回答几个问题，了解您可能符合哪种美国绿卡类别。提供英文和中文版本。"
+  },
+  "common": {
+    "yes": "是",
+    "no": "否",
+    "startOver": "重新开始",
+    "requirements": "要求",
+    "requiredDocuments": "所需文件",
+    "question": "问题",
+    "of": "共",
+    "results": "您的结果"
+  },
+  "screener": {
+    "title": "绿卡资格评估",
+    "description": "回答几个问题，了解您可能符合哪种美国绿卡类别。支持英文和中文。",
+    "questions": {
+      "current_visa": "您目前是否在美国持签证工作？",
+      "education_level": "您的最高学历是什么？",
+      "us_citizen_relative": "您是否有直系亲属是美国公民？",
+      "job_offer": "您是否获得美国雇主的工作邀请？",
+      "extraordinary_ability": "您是否在专业领域获得过国家或国际认可？",
+      "work_experience": "您在专业领域有多少年工作经验？"
+    },
+    "education_options": {
+      "bachelors": "学士学位",
+      "masters": "硕士学位",
+      "phd": "博士学位或更高",
+      "other": "其他"
+    },
+    "experience_options": {
+      "less_than_2": "少于2年",
+      "2_to_5": "2-5年",
+      "more_than_5": "5年以上"
+    }
+  },
+  "results": {
+    "confidence": "根据您的回答，您可能有{confidence}%的可能性符合{category}类别。",
+    "description": "该类别{description}。",
+    "timeline": "预计处理时间为{timeline}。"
+  }
+} 
