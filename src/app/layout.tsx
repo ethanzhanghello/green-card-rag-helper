@@ -5,6 +5,11 @@ import { NextIntlClientProvider } from 'next-intl';
 
 const inter = Inter({ subsets: ['latin'] });
 
+// Phase 1: Project Setup - Base layout configuration
+// - Next.js app router setup
+// - Tailwind CSS integration
+// - Basic metadata configuration
+
 export const metadata: Metadata = {
   title: 'Green Card Eligibility Screener',
   description: 'Determine which U.S. green card category you may qualify for. Available in English and Chinese.',
