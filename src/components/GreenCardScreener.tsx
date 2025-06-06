@@ -5,6 +5,12 @@ import { screenerQuestions } from '@/lib/screenerQuestions';
 import { assessEligibility } from '@/lib/eligibilityAssessment';
 import ScreenerQuestion from './ScreenerQuestion';
 
+// Phase 3: Core Features Implementation
+// - Green Card screener component
+// - Question flow management
+// - Eligibility assessment integration
+// - User response handling
+
 export default function GreenCardScreener() {
   const { t, i18n } = useTranslation();
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
